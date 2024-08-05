@@ -8,5 +8,12 @@
     "url": "https://github.com/tsmx/request-to-log.git"
   },
   "author": "tsmx <dev@tsmx.net>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "winston": "^3.13.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.8.0"
+  }
 }
