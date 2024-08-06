@@ -1,7 +1,5 @@
 const { configs } = require('@eslint/js');
-const jest = require('eslint-plugin-jest');
-
-let _test = 0;
+const globals = require('globals');
 
 module.exports = [
     configs.recommended,
@@ -9,7 +7,7 @@ module.exports = [
         languageOptions: {
             ecmaVersion: 'latest',
             sourceType: 'commonjs',
-            globals: { Atomics: 'readonly', SharedArrayBuffer: 'readonly' }
+            globals: { ...globals.node, Atomics: 'readonly', SharedArrayBuffer: 'readonly' }
         },
         rules: {
             semi: 'error',
