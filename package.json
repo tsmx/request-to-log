@@ -1,7 +1,7 @@
 {
   "name": "request-to-log",
   "version": "1.0.0",
-  "description": "A simple Express server sending requests to logs.",
+  "description": "A simple Express server sending request information to logs for testing purposes.",
   "main": "app.js",
   "repository": {
     "type": "git",
@@ -14,6 +14,7 @@
     "winston": "^3.13.1"
   },
   "devDependencies": {
-    "eslint": "^8.41.0"
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0"
   }
 }
