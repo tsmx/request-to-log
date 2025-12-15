@@ -9,6 +9,9 @@
   },
   "author": "tsmx <dev@tsmx.net>",
   "license": "MIT",
+  "scripts": {
+    "test": "true"
+  },
   "dependencies": {
     "body-parser": "^1.20.3",
     "express": "^4.19.2",
